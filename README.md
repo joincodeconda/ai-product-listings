@@ -43,7 +43,7 @@ This installs `requests` for API communication and `pandas` for handling CSV fil
 
 ## Step 2: Create the Python Script
 
-Create a new Python file (e.g., `generate_product_listings.py`) and add the following code:
+Create a new Python file (e.g., `ai_product_listings.py`) and add the following code:
 
 ```python
 import os
@@ -103,7 +103,7 @@ if __name__ == "__main__":
 Use the following command in your terminal to process all images in a directory:
 
 ```sh
-python generate_product_listings.py /path/to/images output.csv YOUR_API_TOKEN
+python ai_product_listings.py /path/to/images output.csv YOUR_API_TOKEN
 ```
 
 Replace:
